@@ -1,0 +1,1122 @@
+[27-Nov-2019 17:16:39 CST6CDT] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => '108.179.196.90',
+    'HTTP_POSTMAN_TOKEN' => '8e9916c7-db2c-486f-b0b3-6af20402caeb',
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.19.0',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=api/test',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '189.192.252.171',
+    'REMOTE_PORT' => '52257',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/APIS/ABC/web/index.php?r=api/test',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/APIS/ABC/web/index.php',
+    'SCRIPT_NAME' => '/APIS/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@safedriversclub.azdriversclub.com',
+    'SERVER_NAME' => '108.179.196.90',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4 Server at 108.179.196.90 Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4',
+    'UNIQUE_ID' => 'Xd8D1myzx2YAAAHjJXIAAAAV',
+    'PHP_SELF' => '/APIS/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574896598.9078700542449951171875,
+    'REQUEST_TIME' => 1574896598,
+    'argv' => [
+        'r=api/test',
+    ],
+    'argc' => 1,
+]
+[27-Nov-2019 17:16:52 CST6CDT] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => '108.179.196.90',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=api/test',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '189.192.252.171',
+    'REMOTE_PORT' => '52261',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/APIS/ABC/web/index.php?r=api/test',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/APIS/ABC/web/index.php',
+    'SCRIPT_NAME' => '/APIS/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@safedriversclub.azdriversclub.com',
+    'SERVER_NAME' => '108.179.196.90',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4 Server at 108.179.196.90 Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4',
+    'UNIQUE_ID' => 'Xd8D5Gyzx2YAAAHYZOAAAAGS',
+    'PHP_SELF' => '/APIS/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574896612.20277309417724609375,
+    'REQUEST_TIME' => 1574896612,
+    'argv' => [
+        'r=api/test',
+    ],
+    'argc' => 1,
+]
+[27-Nov-2019 17:19:13 CST6CDT] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => '108.179.196.90',
+    'HTTP_POSTMAN_TOKEN' => '7fb3dd41-3d76-4cb5-804a-d1b9708868f4',
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.19.0',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=api/test',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '189.192.252.171',
+    'REMOTE_PORT' => '52304',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/APIS/ABC/web/index.php?r=api/test',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/APIS/ABC/web/index.php',
+    'SCRIPT_NAME' => '/APIS/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@safedriversclub.azdriversclub.com',
+    'SERVER_NAME' => '108.179.196.90',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4 Server at 108.179.196.90 Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4',
+    'UNIQUE_ID' => 'Xd8EcWyzx2YAAAItsBUAAABQ',
+    'PHP_SELF' => '/APIS/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574896753.1456758975982666015625,
+    'REQUEST_TIME' => 1574896753,
+    'argv' => [
+        'r=api/test',
+    ],
+    'argc' => 1,
+]
+[27-Nov-2019 17:19:58 CST6CDT] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => '108.179.196.90',
+    'HTTP_POSTMAN_TOKEN' => '38b98238-8144-4c7c-8b3a-7cc6a65e2597',
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.19.0',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=api/test',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '189.192.252.171',
+    'REMOTE_PORT' => '52311',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/APIS/ABC/web/index.php?r=api/test',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/APIS/ABC/web/index.php',
+    'SCRIPT_NAME' => '/APIS/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@safedriversclub.azdriversclub.com',
+    'SERVER_NAME' => '108.179.196.90',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4 Server at 108.179.196.90 Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4',
+    'UNIQUE_ID' => 'Xd8Enmyzx2YAAAHYZQcAAAGY',
+    'PHP_SELF' => '/APIS/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574896798.39637088775634765625,
+    'REQUEST_TIME' => 1574896798,
+    'argv' => [
+        'r=api/test',
+    ],
+    'argc' => 1,
+]
+[27-Nov-2019 17:21:33 CST6CDT] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => '108.179.196.90',
+    'HTTP_POSTMAN_TOKEN' => '4c55cb3d-f8b8-4aa2-a14f-6eaf199f148d',
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.19.0',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=api/test',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '189.192.252.171',
+    'REMOTE_PORT' => '52333',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/APIS/ABC/web/index.php?r=api/test',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/APIS/ABC/web/index.php',
+    'SCRIPT_NAME' => '/APIS/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@safedriversclub.azdriversclub.com',
+    'SERVER_NAME' => '108.179.196.90',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4 Server at 108.179.196.90 Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4',
+    'UNIQUE_ID' => 'Xd8E-Wyzx2YAAAHX@PAAAAFL',
+    'PHP_SELF' => '/APIS/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574896893.897736072540283203125,
+    'REQUEST_TIME' => 1574896893,
+    'argv' => [
+        'r=api/test',
+    ],
+    'argc' => 1,
+]
+[27-Nov-2019 17:23:03 CST6CDT] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => '108.179.196.90',
+    'HTTP_IF_MODIFIED_SINCE' => 'Wed, 27 Nov 2019 22:33:33 GMT',
+    'HTTP_IF_NONE_MATCH' => '"16f-5985b963f6895"',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=api/test',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '189.192.252.171',
+    'REMOTE_PORT' => '52374',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/APIS/ABC/web/index.php?r=api/test',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/APIS/ABC/web/index.php',
+    'SCRIPT_NAME' => '/APIS/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@safedriversclub.azdriversclub.com',
+    'SERVER_NAME' => '108.179.196.90',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4 Server at 108.179.196.90 Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4',
+    'UNIQUE_ID' => 'Xd8FV2yzx2YAAAHX@QUAAAFX',
+    'PHP_SELF' => '/APIS/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574896983.8792169094085693359375,
+    'REQUEST_TIME' => 1574896983,
+    'argv' => [
+        'r=api/test',
+    ],
+    'argc' => 1,
+]
+[27-Nov-2019 17:24:07 CST6CDT] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => '108.179.196.90',
+    'HTTP_IF_MODIFIED_SINCE' => 'Wed, 27 Nov 2019 22:33:33 GMT',
+    'HTTP_IF_NONE_MATCH' => '"16f-5985b963f6895"',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=api/test',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '189.192.252.171',
+    'REMOTE_PORT' => '52440',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/APIS/ABC/web/index.php?r=api/test',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/APIS/ABC/web/index.php',
+    'SCRIPT_NAME' => '/APIS/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@safedriversclub.azdriversclub.com',
+    'SERVER_NAME' => '108.179.196.90',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4 Server at 108.179.196.90 Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4',
+    'UNIQUE_ID' => 'Xd8Fl2yzx2YAAAHYZTAAAAGJ',
+    'PHP_SELF' => '/APIS/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574897047.44643497467041015625,
+    'REQUEST_TIME' => 1574897047,
+    'argv' => [
+        'r=api/test',
+    ],
+    'argc' => 1,
+]
+[28-Nov-2019 13:37:16 CST6CDT] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.49048393.1566428574; _identity-backend=%5B1%2C%22kjwJHNLFmPPkz731jzDbfwl6s4W15c_b%22%2C2592000%5D; timezone=America/Phoenix; PHPSESSID=ac430ca0b6f8c6bcab02dec22d72c8f5; _csrf=IWSISIcNQ-FrliiI1EdZ8pqTkGJt7ihE',
+    'HTTP_HOST' => 'americadriversclub.com',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php56/root/etc:/opt/cpanel/ea-php56/root/etc/php.d:.',
+    'QUERY_STRING' => 'r=api/test',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '189.192.226.110',
+    'REMOTE_PORT' => '52360',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/APIS/ABC/web/index.php?r=api/test',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/APIS/ABC/web/index.php',
+    'SCRIPT_NAME' => '/APIS/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@americadriversclub.azdriversclub.com',
+    'SERVER_NAME' => 'americadriversclub.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4 Server at americadriversclub.com Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4',
+    'TZ' => 'America/Chicago',
+    'UNIQUE_ID' => 'XeAh7JYw8XtGpfUhg7zOvwAAAAc',
+    'PHP_SELF' => '/APIS/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574969836.4252059459686279296875,
+    'REQUEST_TIME' => 1574969836,
+    'argv' => [
+        'r=api/test',
+    ],
+    'argc' => 1,
+]
+[28-Nov-2019 13:37:21 CST6CDT] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.49048393.1566428574; _identity-backend=%5B1%2C%22kjwJHNLFmPPkz731jzDbfwl6s4W15c_b%22%2C2592000%5D; timezone=America/Phoenix; PHPSESSID=ac430ca0b6f8c6bcab02dec22d72c8f5; _csrf=IWSISIcNQ-FrliiI1EdZ8pqTkGJt7ihE',
+    'HTTP_HOST' => 'americadriversclub.com',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php56/root/etc:/opt/cpanel/ea-php56/root/etc/php.d:.',
+    'QUERY_STRING' => 'r=api/test',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '189.192.226.110',
+    'REMOTE_PORT' => '52360',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/APIS/ABC/web/index.php?r=api/test',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/APIS/ABC/web/index.php',
+    'SCRIPT_NAME' => '/APIS/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@americadriversclub.azdriversclub.com',
+    'SERVER_NAME' => 'americadriversclub.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4 Server at americadriversclub.com Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4',
+    'TZ' => 'America/Chicago',
+    'UNIQUE_ID' => 'XeAh8ZYw8XtGpfUhg7zOwAAAAAg',
+    'PHP_SELF' => '/APIS/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574969841.410214900970458984375,
+    'REQUEST_TIME' => 1574969841,
+    'argv' => [
+        'r=api/test',
+    ],
+    'argc' => 1,
+]
+[28-Nov-2019 13:38:04 CST6CDT] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.49048393.1566428574; _identity-backend=%5B1%2C%22kjwJHNLFmPPkz731jzDbfwl6s4W15c_b%22%2C2592000%5D; timezone=America/Phoenix; PHPSESSID=ac430ca0b6f8c6bcab02dec22d72c8f5; _csrf=IWSISIcNQ-FrliiI1EdZ8pqTkGJt7ihE',
+    'HTTP_HOST' => 'americadriversclub.com',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php56/root/etc:/opt/cpanel/ea-php56/root/etc/php.d:.',
+    'QUERY_STRING' => 'r=api/test',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '189.192.226.110',
+    'REMOTE_PORT' => '52364',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/APIS/ABC/web/index.php?r=api/test',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/APIS/ABC/web/index.php',
+    'SCRIPT_NAME' => '/APIS/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@americadriversclub.azdriversclub.com',
+    'SERVER_NAME' => 'americadriversclub.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4 Server at americadriversclub.com Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4',
+    'TZ' => 'America/Chicago',
+    'UNIQUE_ID' => 'XeAiHOzXE1zNiSzjKZLe7wAAAIs',
+    'PHP_SELF' => '/APIS/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574969884.15363597869873046875,
+    'REQUEST_TIME' => 1574969884,
+    'argv' => [
+        'r=api/test',
+    ],
+    'argc' => 1,
+]
+[28-Nov-2019 14:19:25 CST6CDT] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/azdriversclub/public_html/APIS/ABC/controllers/ApiController.php on line 56.' in /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/APIS/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/APIS/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => '108.179.196.90',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php56/root/etc:/opt/cpanel/ea-php56/root/etc/php.d:.',
+    'QUERY_STRING' => 'r=api/test',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '189.192.252.171',
+    'REMOTE_PORT' => '55345',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/APIS/ABC/web/index.php?r=api/test',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/APIS/ABC/web/index.php',
+    'SCRIPT_NAME' => '/APIS/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@safedriversclub.azdriversclub.com',
+    'SERVER_NAME' => '108.179.196.90',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4 Server at 108.179.196.90 Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4',
+    'TZ' => 'America/Chicago',
+    'UNIQUE_ID' => 'XeArzO1@zJTQ2j7nj-64LwAAAFI',
+    'PHP_SELF' => '/APIS/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574972364.9477560520172119140625,
+    'REQUEST_TIME' => 1574972364,
+    'argv' => [
+        'r=api/test',
+    ],
+    'argc' => 1,
+]
+[28-Nov-2019 20:30:35 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/azdriversclub/public_html/ABCBACK/ABC/controllers/ApiController.php on line 56. in /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/azdriversclub/public_html/ABCBACK/ABC/controllers/ApiController.php on line 56. in /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/ABCBACK/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.542666323.1572927872; _identity-backend=%5B1%2C%22kjwJHNLFmPPkz731jzDbfwl6s4W15c_b%22%2C2592000%5D; PHPSESSID=ed1e5ba09c83382e5cc7e045ed5e08dc; timezone=America/Phoenix; _csrf=4Bx3zTSjfTUmWOsmRmc7hWaTMzTIkR_U',
+    'HTTP_HOST' => 'americadriversclub.com',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => 'r=api/test',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '189.192.252.171',
+    'REMOTE_PORT' => '55698',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/ABCBACK/ABC/web/index.php?r=api/test',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/ABCBACK/ABC/web/index.php',
+    'SCRIPT_NAME' => '/ABCBACK/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@americadriversclub.azdriversclub.com',
+    'SERVER_NAME' => 'americadriversclub.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4 Server at americadriversclub.com Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4',
+    'TZ' => 'America/Chicago',
+    'UNIQUE_ID' => 'XeAuaw58@cc86ctjWD3b5QAAAEA',
+    'PHP_SELF' => '/ABCBACK/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574973035.5315868854522705078125,
+    'REQUEST_TIME' => 1574973035,
+    'argv' => [
+        'r=api/test',
+    ],
+    'argc' => 1,
+]
+[28-Nov-2019 20:30:56 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/azdriversclub/public_html/ABCBACK/ABC/controllers/ApiController.php on line 56. in /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/azdriversclub/public_html/ABCBACK/ABC/controllers/ApiController.php on line 56. in /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/ABCBACK/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip',
+    'HTTP_CONNECTION' => 'close',
+    'HTTP_HOST' => 'americadriversclub.com',
+    'HTTP_RANGE' => 'bytes=0-524287',
+    'HTTP_USER_AGENT' => 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => 'r=api/test',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '173.252.87.18',
+    'REMOTE_PORT' => '53374',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/ABCBACK/ABC/web/index.php?r=api/test',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/ABCBACK/ABC/web/index.php',
+    'SCRIPT_NAME' => '/ABCBACK/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@americadriversclub.azdriversclub.com',
+    'SERVER_NAME' => 'americadriversclub.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4 Server at americadriversclub.com Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4',
+    'TZ' => 'America/Chicago',
+    'UNIQUE_ID' => 'XeAufw58@cc86ctjWD3b5wAAAEY',
+    'PHP_SELF' => '/ABCBACK/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574973056.0048930644989013671875,
+    'REQUEST_TIME' => 1574973056,
+    'argv' => [
+        'r=api/test',
+    ],
+    'argc' => 1,
+]
+[28-Nov-2019 20:30:56 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/azdriversclub/public_html/ABCBACK/ABC/controllers/ApiController.php on line 56. in /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/azdriversclub/public_html/ABCBACK/ABC/controllers/ApiController.php on line 56. in /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/ABCBACK/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip',
+    'HTTP_CONNECTION' => 'close',
+    'HTTP_HOST' => 'americadriversclub.com',
+    'HTTP_RANGE' => 'bytes=0-524287',
+    'HTTP_USER_AGENT' => 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => 'r=api/test',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '173.252.87.36',
+    'REMOTE_PORT' => '56616',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/ABCBACK/ABC/web/index.php?r=api/test',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/ABCBACK/ABC/web/index.php',
+    'SCRIPT_NAME' => '/ABCBACK/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@americadriversclub.azdriversclub.com',
+    'SERVER_NAME' => 'americadriversclub.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4 Server at americadriversclub.com Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4',
+    'TZ' => 'America/Chicago',
+    'UNIQUE_ID' => 'XeAugFAHTOL044JMtbn3NAAAAAA',
+    'PHP_SELF' => '/ABCBACK/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574973056.472834110260009765625,
+    'REQUEST_TIME' => 1574973056,
+    'argv' => [
+        'r=api/test',
+    ],
+    'argc' => 1,
+]
+[28-Nov-2019 20:32:12 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/azdriversclub/public_html/ABCBACK/ABC/controllers/ApiController.php on line 56. in /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/azdriversclub/public_html/ABCBACK/ABC/controllers/ApiController.php on line 56. in /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/ABCBACK/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.1755138150.1567625547',
+    'HTTP_HOST' => 'americadriversclub.com',
+    'HTTP_REFERER' => 'https://l.facebook.com/',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => 'r=api%2Ftest&fbclid=IwAR3odYIsu-TrzFjTQC0QutR--7kdzDt9ddT80uautH7GbF6MyHDkzWj6AGs',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '177.230.48.153',
+    'REMOTE_PORT' => '61704',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/ABCBACK/ABC/web/index.php?r=api%2Ftest&fbclid=IwAR3odYIsu-TrzFjTQC0QutR--7kdzDt9ddT80uautH7GbF6MyHDkzWj6AGs',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/ABCBACK/ABC/web/index.php',
+    'SCRIPT_NAME' => '/ABCBACK/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@americadriversclub.azdriversclub.com',
+    'SERVER_NAME' => 'americadriversclub.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4 Server at americadriversclub.com Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4',
+    'TZ' => 'America/Chicago',
+    'UNIQUE_ID' => 'XeAuzA58@cc86ctjWD3b7wAAAEY',
+    'PHP_SELF' => '/ABCBACK/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574973132.3843390941619873046875,
+    'REQUEST_TIME' => 1574973132,
+    'argv' => [
+        'r=api%2Ftest&fbclid=IwAR3odYIsu-TrzFjTQC0QutR--7kdzDt9ddT80uautH7GbF6MyHDkzWj6AGs',
+    ],
+    'argc' => 1,
+]
+[28-Nov-2019 20:42:16 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/azdriversclub/public_html/ABCBACK/ABC/controllers/ApiController.php on line 56. in /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/azdriversclub/public_html/ABCBACK/ABC/controllers/ApiController.php on line 56. in /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/ABCBACK/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.542666323.1572927872; _identity-backend=%5B1%2C%22kjwJHNLFmPPkz731jzDbfwl6s4W15c_b%22%2C2592000%5D; PHPSESSID=ed1e5ba09c83382e5cc7e045ed5e08dc; timezone=America/Phoenix; _csrf=4Bx3zTSjfTUmWOsmRmc7hWaTMzTIkR_U',
+    'HTTP_HOST' => 'americadriversclub.com',
+    'HTTP_REFERER' => 'https://l.facebook.com/',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => 'r=api%2Ftest&fbclid=IwAR1aBkeGWY5SOsc_dvBzj2HETK_QPIodz-vgs7ovMJyOyFNefKnRWSbrERM',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '189.192.252.171',
+    'REMOTE_PORT' => '56142',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/ABCBACK/ABC/web/index.php?r=api%2Ftest&fbclid=IwAR1aBkeGWY5SOsc_dvBzj2HETK_QPIodz-vgs7ovMJyOyFNefKnRWSbrERM',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/ABCBACK/ABC/web/index.php',
+    'SCRIPT_NAME' => '/ABCBACK/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@americadriversclub.azdriversclub.com',
+    'SERVER_NAME' => 'americadriversclub.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4 Server at americadriversclub.com Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4',
+    'TZ' => 'America/Chicago',
+    'UNIQUE_ID' => 'XeAxKA58@cc86ctjWD3cOwAAAEw',
+    'PHP_SELF' => '/ABCBACK/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574973736.3310348987579345703125,
+    'REQUEST_TIME' => 1574973736,
+    'argv' => [
+        'r=api%2Ftest&fbclid=IwAR1aBkeGWY5SOsc_dvBzj2HETK_QPIodz-vgs7ovMJyOyFNefKnRWSbrERM',
+    ],
+    'argc' => 1,
+]
+[28-Nov-2019 21:53:46 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/azdriversclub/public_html/ABCBACK/ABC/controllers/ApiController.php on line 56. in /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/azdriversclub/public_html/ABCBACK/ABC/controllers/ApiController.php on line 56. in /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/ABCBACK/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.542666323.1572927872; _identity-backend=%5B1%2C%22kjwJHNLFmPPkz731jzDbfwl6s4W15c_b%22%2C2592000%5D; PHPSESSID=ed1e5ba09c83382e5cc7e045ed5e08dc; timezone=America/Phoenix; _csrf=4Bx3zTSjfTUmWOsmRmc7hWaTMzTIkR_U',
+    'HTTP_HOST' => 'americadriversclub.com',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => 'r=api/test',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '189.192.252.171',
+    'REMOTE_PORT' => '57301',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/ABCBACK/ABC/web/index.php?r=api/test',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/ABCBACK/ABC/web/index.php',
+    'SCRIPT_NAME' => '/ABCBACK/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@americadriversclub.azdriversclub.com',
+    'SERVER_NAME' => 'americadriversclub.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4 Server at americadriversclub.com Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4',
+    'TZ' => 'America/Chicago',
+    'UNIQUE_ID' => 'XeBB6rBSGL1arIeRPcy7WgAAAEM',
+    'PHP_SELF' => '/ABCBACK/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574978026.8784129619598388671875,
+    'REQUEST_TIME' => 1574978026,
+    'argv' => [
+        'r=api/test',
+    ],
+    'argc' => 1,
+]
+[29-Nov-2019 00:51:41 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/azdriversclub/public_html/ABCBACK/ABC/controllers/ApiController.php on line 56. in /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/azdriversclub/public_html/ABCBACK/ABC/controllers/ApiController.php on line 56. in /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/ABCBACK/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip',
+    'HTTP_CONNECTION' => 'close',
+    'HTTP_HOST' => 'americadriversclub.com',
+    'HTTP_RANGE' => 'bytes=0-524287',
+    'HTTP_USER_AGENT' => 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => 'r=api/test',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '173.252.87.2',
+    'REMOTE_PORT' => '62216',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/ABCBACK/ABC/web/index.php?r=api/test',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/ABCBACK/ABC/web/index.php',
+    'SCRIPT_NAME' => '/ABCBACK/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@americadriversclub.azdriversclub.com',
+    'SERVER_NAME' => 'americadriversclub.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4 Server at americadriversclub.com Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4',
+    'TZ' => 'America/Chicago',
+    'UNIQUE_ID' => 'XeBrnWIl0VJ1xM@YpRjh@gAAARY',
+    'PHP_SELF' => '/ABCBACK/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574988701.410583972930908203125,
+    'REQUEST_TIME' => 1574988701,
+    'argv' => [
+        'r=api/test',
+    ],
+    'argc' => 1,
+]
+[29-Nov-2019 01:19:50 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/azdriversclub/public_html/ABCBACK/ABC/controllers/ApiController.php on line 56. in /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/azdriversclub/public_html/ABCBACK/ABC/controllers/ApiController.php on line 56. in /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/ABCBACK/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.542666323.1572927872; _identity-backend=%5B1%2C%22kjwJHNLFmPPkz731jzDbfwl6s4W15c_b%22%2C2592000%5D; PHPSESSID=ed1e5ba09c83382e5cc7e045ed5e08dc; timezone=America/Phoenix; _csrf=4Bx3zTSjfTUmWOsmRmc7hWaTMzTIkR_U',
+    'HTTP_HOST' => 'americadriversclub.com',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => 'r=api/test',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '189.192.252.171',
+    'REMOTE_PORT' => '58537',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/ABCBACK/ABC/web/index.php?r=api/test',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/ABCBACK/ABC/web/index.php',
+    'SCRIPT_NAME' => '/ABCBACK/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@americadriversclub.azdriversclub.com',
+    'SERVER_NAME' => 'americadriversclub.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4 Server at americadriversclub.com Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4',
+    'TZ' => 'America/Chicago',
+    'UNIQUE_ID' => 'XeByNoXAjxhXEYgXV8pl9wAAAEs',
+    'PHP_SELF' => '/ABCBACK/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1574990390.50384807586669921875,
+    'REQUEST_TIME' => 1574990390,
+    'argv' => [
+        'r=api/test',
+    ],
+    'argc' => 1,
+]
+[29-Nov-2019 17:35:03 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/azdriversclub/public_html/ABCBACK/ABC/controllers/ApiController.php on line 56. in /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/azdriversclub/public_html/ABCBACK/ABC/controllers/ApiController.php on line 56. in /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/azdriversclub/public_html/ABCBACK/ABC/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/azdriversclub/public_html/ABCBACK/ABC/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/azdriversclub/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.542666323.1572927872; _identity-backend=%5B1%2C%22kjwJHNLFmPPkz731jzDbfwl6s4W15c_b%22%2C2592000%5D; PHPSESSID=ed1e5ba09c83382e5cc7e045ed5e08dc; timezone=America/Phoenix; _csrf=4Bx3zTSjfTUmWOsmRmc7hWaTMzTIkR_U',
+    'HTTP_HOST' => 'americadriversclub.com',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => 'r=api/test',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '189.192.252.171',
+    'REMOTE_PORT' => '59777',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/ABCBACK/ABC/web/index.php?r=api/test',
+    'SCRIPT_FILENAME' => '/home/azdriversclub/public_html/ABCBACK/ABC/web/index.php',
+    'SCRIPT_NAME' => '/ABCBACK/ABC/web/index.php',
+    'SERVER_ADDR' => '108.179.196.90',
+    'SERVER_ADMIN' => 'webmaster@americadriversclub.azdriversclub.com',
+    'SERVER_NAME' => 'americadriversclub.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4 Server at americadriversclub.com Port 80</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (cPanel) OpenSSL/1.0.2t mod_bwlimited/1.4',
+    'TZ' => 'America/Chicago',
+    'UNIQUE_ID' => 'XeFWxuUQUzhVMaORMFfHjQAAAJE',
+    'PHP_SELF' => '/ABCBACK/ABC/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1575048902.71881198883056640625,
+    'REQUEST_TIME' => 1575048902,
+    'argv' => [
+        'r=api/test',
+    ],
+    'argc' => 1,
+]
